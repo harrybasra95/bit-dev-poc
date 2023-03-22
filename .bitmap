@@ -10,41 +10,16 @@
 
 {
     "envs/my-react-env": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "harrybasra95.test",
+        "scope": "harrybasra95.test",
+        "version": "1.0.0",
         "mainFile": "index.ts",
-        "rootDir": "test/envs/my-react-env",
-        "config": {
-            "teambit.envs/envs": {
-                "env": "teambit.envs/env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.preview/preview": {},
-            "teambit.component/dev-files": {},
-            "teambit.pipelines/builder": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "teambit.react",
-                    "name": "react-env-extension",
-                    "version": "0.0.7"
-                }
-            }
-        }
+        "rootDir": "test/envs/my-react-env"
     },
     "ui/button": {
-        "scope": "",
-        "version": "",
+        "scope": "harrybasra95.test",
+        "version": "1.0.1",
         "mainFile": "index.ts",
-        "rootDir": "test/ui/button",
-        "config": {
-            "harrybasra95.test/envs/my-react-env": {},
-            "teambit.envs/envs": {
-                "env": "harrybasra95.test/envs/my-react-env"
-            }
-        }
+        "rootDir": "test/ui/button"
     },
     "$schema-version": "15.0.0"
 }

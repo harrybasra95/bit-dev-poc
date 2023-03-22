@@ -7,9 +7,9 @@ export const ButtonStyled = styled.button`
      border: 1px solid grey;
      ${(props)=>props.primary && (
           `
-               background-color: black;
+               background-color: orangered;
                color: white;
-               border: 1px solid black;
+               border: 1px solid orangered;
           `
      )}
 `;
