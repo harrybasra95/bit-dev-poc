@@ -4,13 +4,14 @@ import { ButtonStyled } from './style';
 export type ButtonProps = {
   title?: String;
   primary?: Boolean;
+  onClick?: Function
   
 };
 
-export function Button({ title, primary }: ButtonProps) {
+export function Button({ title, primary, onClick }: ButtonProps) {
   return (
     <div>
-      <ButtonStyled primary={primary}>
+      <ButtonStyled onClick={onClick} primary={primary}>
           {title}
       </ButtonStyled>
     </div>

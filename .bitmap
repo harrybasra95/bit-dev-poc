@@ -17,9 +17,21 @@
     },
     "ui/button": {
         "scope": "harrybasra95.test",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "test/ui/button"
+    },
+    "ui/input": {
+        "scope": "harrybasra95.test",
+        "version": "1.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "test/ui/input"
+    },
+    "ui/to-do": {
+        "scope": "harrybasra95.test",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "test/ui/to-do"
     },
     "$schema-version": "15.0.0"
 }
