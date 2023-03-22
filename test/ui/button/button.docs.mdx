@@ -1,0 +1,28 @@
+<!-- This is the component's documentation.
+It is rendered in the component's 'Overview' tab, in Bit's UI.
+Since it is a React component, it uses the MDX format
+to integrate Markdown with JSX.  -->
+
+---
+Description: A button component.
+---
+
+import { Button } from './button';
+
+A button component that has various styles which can be utilized by sending various props.
+
+### Basic usage
+
+```js
+import { Button } from '@harrybasra/test.ui.button';
+
+() => <Button />;
+```
+
+### Setting an initial Button
+
+Set an initial button item using the `title` prop (try it out, in the live playground below):
+
+```js live
+<Button title="my first item!" />
+```
